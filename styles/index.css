@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  font-family: Kumbh Sans;
+  background-image: url("../images/bg-pattern-bottom.svg"), url("../images/bg-pattern-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: -100px, 800px;
+  background-position-y: -200px, 400px;
+  background-color: hsl(185, 75%, 39%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  
+  max-width: 350px;
+  border: 1px solid black;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
